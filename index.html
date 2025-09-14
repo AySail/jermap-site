@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jer Maps – Coming 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue: #0096c7;
+      --green: #52b788;
+      --dark: #042a2b;
+      --light: #f0fdfb;
+      --accent: #80ed99;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Lexend', sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--blue), var(--green));
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    header p {
+      font-size: 1.3em;
+      margin-top: 10px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: var(--blue);
+      margin-bottom: 20px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .feature {
+      background-color: white;
+      border-left: 5px solid var(--green);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .feature h3 {
+      margin-top: 0;
+      color: var(--blue);
+    }
+
+    .screenshot {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .screenshot img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .tagline {
+      text-align: center;
+      font-size: 1.2em;
+      margin-top: 30px;
+      color: var(--dark);
+    }
+
+    .github-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .github-link a {
+      font-weight: bold;
+      background-color: var(--blue);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .github-link a:hover {
+      background-color: var(--green);
+    }
+
+    footer {
+      background-color: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 700px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jer Maps</h1>
+    <p>A timeline-based, embeddable, open-source world map</p>
+    <div class="tagline">🌍 Coming in 2026 – Open source as well!</div>
+    <div class="github-link">
+      <a href="https://github.com/AySail/Jer-Maps" target="_blank">🌐 View the Project on GitHub</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🕒 Historical Timeline</h3>
+        <p>Travel through time — see country names and borders from 753 BC to now.</p>
+      </div>
+      <div class="feature">
+        <h3>📡 Satellite View</h3>
+        <p>See realistic, earth-inspired satellite images. Supports month selection too.</p>
+      </div>
+      <div class="feature">
+        <h3>🧬 Pangaea Mode</h3>
+        <p>Explore a realistic satellite-style rendering of Pangaea created from scratch.</p>
+      </div>
+      <div class="feature">
+        <h3>🧪 Ant/Bee/Wasp Colonies</h3>
+        <p>See insect colonies around the globe. All data is open, and community-supported.</p>
+      </div>
+      <div class="feature">
+        <h3>🧭 Community Naming</h3>
+        <p>Users can suggest names and help shape how regions, borders, and features appear.</p>
+      </div>
+      <div class="feature">
+        <h3>📦 Embed + API</h3>
+        <p>Use Jer Maps for free in your own apps and websites. Just like Google Maps, but open-source!</p>
+      </div>
+    </div>
+
+    <div class="screenshot">
+      <h2>Preview</h2>
+      <img src="https://via.placeholder.com/800x400.png?text=Jer+Maps+Preview+Screenshot" alt="Jer Maps Screenshot">
+      <p style="font-size: 0.9em; color: #555;">(Preview image – replace with real screenshots soon)</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Jer Maps?</h2>
+    <p>Jer Maps isn’t just another map. It’s a creative, community-led experiment in visualizing history and geography. Built by an indie dev (that’s me 👋), it's completely open-source and ready to be part of your games, tools, and learning experiences. And yes — it’s free forever.</p>
+  </section>
+
+  <footer>
+    <p>Made by <a href="https://github.com/AySail" target="_blank" style="color: var(--accent);">AySail</a> • Jer Maps © 2025 • Open Source & Community Driven</p>
+  </footer>
+
+</body>
+</html>
